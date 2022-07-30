@@ -4,6 +4,8 @@
     display:flex;
     justify-content:center;
     align-items:center;
+    flex:1;
+    padding:4px;
 }
 .left
 {
@@ -14,6 +16,8 @@
 {
     display:flex;
     flex-direction:column;
+    width:400px;
+    height:402px;
 }
 .header
 {
