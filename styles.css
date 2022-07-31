@@ -39,6 +39,7 @@
     display:flex;
     justify-content:center;
     gap:28px;
+    text-align: center;
 
 }
 #square
@@ -62,6 +63,65 @@
     font-size:36px;
     font-weight:bolder;
     color:#1F2937;
+}
+.testimonial
+{
+    background-color:#E5E7EB;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#test
+{
+    
+    color:#1F2937;
+    display:flex;
+    flex-wrap:wrap;
+    max-width:750px;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+}
+#text
+{
+    font-style:italic;
+    font-size:36px;
+}
+#thor
+{
+
+    font-weight:bold;
+    font-size:18px;
+    align-self:flex-end; 
+    margin-left:180px;
+    
+}
+#call
+{
+    background-color:#3882F6;
+    width:800px;
+    height:130px;
+    justify-content:center;
+    align-items:center;
+    border-radius:8px;
+    padding-left:80px;
+    
+}
+#container
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:80px;
+}
+#Time
+{
+    color:#F9FAF8;
+    
+}
+#Sign
+{
+    color:#E5E7EB;
 }
 ul
 {
@@ -103,10 +163,22 @@ p
     flex-wrap:wrap;
     max-width:350px;
 }
-button
+#one
 {
    background-color:#3882F6;
     color:#F9FAF8;
     border-radius:5px;
     border-color:#3882F6;
+}
+#button
+{
+    
+    background-color:#3882F6;
+    color:#F9FAF8;
+    border-radius:5px;
+    border-color:#F9FAF8;
+}
+#left
+{
+    margin-left:120px;
 }
